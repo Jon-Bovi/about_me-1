@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>Class demo 19 Sept</title>
-</head>
-
-<body>
-  <p>What is your name?</p>
-  <p> </p>
-
-<script>
 var username = prompt('what is your name?');
 alert("Welcome " + username +'!');
 console.log('The user\'s name is ' + username );
@@ -27,11 +15,3 @@ console.log('The user\'s favorite tv show  is ' + show);
 var drink = prompt('what is your favorite drink?');
 alert('Hello '+ username + ' I like to eat '+ meal + ' while watching '+ show +' and drinking ' + drink +' too !');
 console.log('The user\'s favorite drink  is ' + drink);
-
-
-</script>
-
-</body>
-
-
-</html>
