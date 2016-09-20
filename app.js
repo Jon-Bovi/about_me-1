@@ -1,17 +1,51 @@
-var username = prompt('what is your name?');
-alert("Welcome " + username +'!');
-console.log('The user\'s name is ' + username );
+"use strict";
+var live= prompt('Do I live in seattle? Yes or No');
+live = live.toUpperCase();
+if (live==='YES') {
+    alert('Correct!');
+} else if (live==='NO') {
+      alert('Sorry you got it wrong!');
+    }
+      else {
+           alert('Wrong Input!');
+};
 
+var gold = prompt('Is my favorite color Gold? Yes or No').toUpperCase();
+if (gold==='YES') {
+    alert('Correct!');
+} else if (gold==='NO') {
+      alert('Sorry you got it wrong!');
+    }
+      else {
+           alert('Wrong Input!');
+};
 
-var meal = prompt('what is your favorite thing to eat?');
-alert('Hello '+ username + ' '+ meal+ ' is a good choice '+'!');
-console.log('The user\'s favorite meal is ' + meal );
+var sing=prompt('Can I sing? Yes or No').toUpperCase();;
+if (sing==='NO') {
+    alert('Correct!');
+} else if (sing==='NO') {
+      alert('Sorry you got it wrong!');
+    }
+      else {
+           alert('Wrong Input!');
+};
 
+var pizza=prompt('Do I dislike pizza? Yes or No').toUpperCase();;
+if (pizza==='YES') {
+    alert('Correct!');
+} else if (pizza==='NO') {
+      alert('Sorry you got it wrong!');
+    }
+      else {
+           alert('Wrong Input!');
+};
 
-var show = prompt('what is your favorite tv show?');
-alert('Hello '+ username + ' I like also like to eat '+ meal + ' while watching '+ show) ;
-console.log('The user\'s favorite tv show  is ' + show);
-
-var drink = prompt('what is your favorite drink?');
-alert('Hello '+ username + ' I like to eat '+ meal + ' while watching '+ show +' and drinking ' + drink +' too !');
-console.log('The user\'s favorite drink  is ' + drink);
+var dancing=prompt('Do I like  to dance? Yes or No').toUpperCase();;
+if (dancing==='Yes') {
+    alert('Correct!');
+} else if (dancing==='NO') {
+      alert('Sorry you got it wrong!');
+    }
+      else {
+           alert('Wrong Input!');
+};

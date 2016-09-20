@@ -1,0 +1,55 @@
+/*main and nav */
+
+#name {
+    text-align: center;
+color: navy;
+font-family: 'KaushanScriptRegular';
+    font-size: 370%;
+font-size-adjust: auto;
+        padding-top: 0%;
+    margin-top:2%;
+    word-spacing: 20px;
+}
+#made{text-align: center
+  ;}
+body{height: 400px;
+background-color: white;}
+
+header, footer{background-color: lightblue;
+    border: none;
+    width:100%;
+height: 20%;
+margin-top: 30px;
+    padding-top: 10px;
+     padding-bottom: 15px;
+}
+/*about me */
+#abme{background-color: none;
+  marigin: 20px 20px 20px 20px;
+    width: 80%;
+height:190%;
+ margin-left: 10%;
+}
+#me{height: 300px;
+    width: auto;
+float:left;
+padding-top: 55px;
+}
+
+
+#abme h2{font-family: 'KaushanScriptRegular';
+font-size:270%;
+    text-align: center;
+    padding-top: 10%;
+}
+#abp{font-size:40px;
+    width: 28%;
+    margin-left: 15%;
+    background-color: red;
+    alight:right;
+
+}
+#hello{font-size: 25px;}
+.sum{font-size: 24px;
+margin-left: 30px;
+padding-left: 30px;}
