@@ -45,7 +45,7 @@ if (pizza ==='YES'|| pizza === 'Y') {
 console.log('the user \'s answer is ' + pizza);
 
 var dancing = prompt('Do I like  to dance? Yes or No').toUpperCase();
-if (dancing ==='Yes'|| dancing ==="Y") {
+if (dancing ==='YES'|| dancing ==="Y") {
     alert('Correct!');
 } else if (dancing ==='NO'|| dancing ==="N") {
       alert('Sorry you got it wrong!');
