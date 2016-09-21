@@ -1,5 +1,5 @@
 "use strict";
-var live = prompt('Do I live in seattle? Yes or No').toUpperCase();
+/*var live = prompt('Do I live in seattle? Yes or No').toUpperCase();
 if (live ==='YES'||live ==="Y") {
     alert('Correct!');
 } else if (live ==='NO'||live ==='N') {
@@ -53,4 +53,18 @@ if (dancing ==='YES'|| dancing ==="Y") {
       else {
            alert('Wrong Input!');
 };
-console.log('the user \'s answer is ' + dancing);
+console.log('the user \'s answer is ' + dancing);*/
+
+
+var counter = 0;
+while (counter < 4){
+  var input = parseInt(prompt('Can you guess how many mini hershey chocolates I ate today?'));
+  if (input === 4) {
+    alert ('Correct!')
+  } else if (input < 4) {
+    alert(' You guessed too low!');
+  } else {
+    alert('You guessed too high');
+  }
+counter++;
+}
