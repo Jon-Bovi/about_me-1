@@ -104,7 +104,7 @@ while (counter1 < 6) {
     break;
   } else {
     alert('You are wrong');
-  counter1++;
+    counter1++;
   }
 }
 if (counter1 === 6) {
