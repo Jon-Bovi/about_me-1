@@ -53,18 +53,34 @@ if (dancing ==='YES'|| dancing ==="Y") {
       else {
            alert('Wrong Input!');
 };
-console.log('the user \'s answer is ' + dancing);*/
+console.log('the user \'s answer is ' + dancing);
 
 
 var counter = 0;
 while (counter < 4){
   var input = parseInt(prompt('Can you guess how many mini hershey chocolates I ate today?'));
   if (input === 4) {
-    alert ('Correct!')
+    alert ('Correct!');END;
   } else if (input < 4) {
     alert(' You guessed too low!');
   } else {
     alert('You guessed too high');
   }
 counter++;
+}*/
+
+var counter = 0;
+while (counter < 6){
+var places = ['Texas', 'Pennsylvania' , 'Maryland'];
+var state = prompt('Can you guess a state that I have lived in besides Washington?');
+
+for(var i = 0; i < places.length; i++){
+console.log(places.length);
+ if (state === places[i]) {
+   alert('You are correct, I have lived in Texas, Pennsylvania , Maryland');END;
+} else {
+    alert('You are wrong');
+  }
+counter++;
+}
 }
