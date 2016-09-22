@@ -1,5 +1,5 @@
 "use strict";
-/*var live = prompt('Do I live in seattle? Yes or No').toUpperCase();
+var live = prompt('Do I live in seattle? Yes or No').toUpperCase();
 if (live ==='YES'||live ==="Y") {
     alert('Correct!');
 } else if (live ==='NO'||live ==='N') {
@@ -60,30 +60,34 @@ var counter = 0;
 while (counter < 4){
   var input = parseInt(prompt('Can you guess how many mini hershey chocolates I ate today?'));
   if (input === 4) {
-    alert ('Correct!');END;
+    alert ('Correct!');
+    break;
   } else if (input < 4) {
     alert(' You guessed too low!');
   } else {
     alert('You guessed too high');
   }
 counter++;
-}*/
+}
 
 
 var counter = 0;
 while (counter < 6){
   var places = ['Texas', 'Pennsylvania' , 'Maryland'];
   var state = prompt('Can you guess a state that I have lived in besides Washington?');
-  if (state === places[i]) {
+  var answerwasfound = false;
+  for (var i = 0; i < places.length; i++){
+    console.log(places.length);
+    places[i]
+    if (state === places[i]){
+      answerwasfound = true;
+        break;
+    }}
+
+  if(answerwasfound === true)  {
     alert('You are correct, I have lived in Texas, Pennsylvania , Maryland');
     break;
   } else {
     alert('You are wrong');
     counter++;
-  }
-  for(var i = 0; i < places.length; i++){
-    console.log(places.length);
-
-  }
-
-}
+  }}
