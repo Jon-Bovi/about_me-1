@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 var names = prompt('Hello! please enter your name.');
 alert(' Welcome to my page ' + names + '! Lets play a game, There are 7 question about me. lets see how many you can get correct. GOOD LUCK ');
 var score = 0;
@@ -102,7 +104,7 @@ while (counter1 < 6) {
     break;
   } else {
     alert('You are wrong');
-
+  counter1++;
   }
 }
 if (counter1 === 6) {
@@ -112,7 +114,8 @@ if (score === 7) {
   alert('Congratulations!' + names + ' you got' + score + '/ 7 questions correct');
 
 } else {
-  alert('Sorry' + names + 'you got ' + score + '/7 questions correct');
+  alert('Sorry ' + names + 'you got ' + score + '/7 questions correct');
+
 }
 
 
