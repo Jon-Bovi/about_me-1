@@ -69,18 +69,21 @@ while (counter < 4){
 counter++;
 }*/
 
+
 var counter = 0;
 while (counter < 6){
-var places = ['Texas', 'Pennsylvania' , 'Maryland'];
-var state = prompt('Can you guess a state that I have lived in besides Washington?');
-
-for(var i = 0; i < places.length; i++){
-console.log(places.length);
- if (state === places[i]) {
-   alert('You are correct, I have lived in Texas, Pennsylvania , Maryland');END;
-} else {
+  var places = ['Texas', 'Pennsylvania' , 'Maryland'];
+  var state = prompt('Can you guess a state that I have lived in besides Washington?');
+  if (state === places[i]) {
+    alert('You are correct, I have lived in Texas, Pennsylvania , Maryland');
+    break;
+  } else {
     alert('You are wrong');
+    counter++;
   }
-counter++;
-}
+  for(var i = 0; i < places.length; i++){
+    console.log(places.length);
+
+  }
+
 }
