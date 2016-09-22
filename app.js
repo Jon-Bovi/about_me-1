@@ -1,28 +1,38 @@
 "use strict";
+
+
+var score = 0;
 var live = prompt('Do I live in seattle? Yes or No').toUpperCase();
 if (live ==='YES'||live ==="Y") {
     alert('Correct!');
+  score += 1;
 } else if (live ==='NO'||live ==='N') {
       alert('Sorry you got it wrong!');
+
     }
       else {
            alert('Wrong Input!');
-};
 
-console.log('the user \'s answer is ' + live);
+};
+alert('you have '+score+ '/ 7' )
+console.log('the user \'s answer is ' + live+ ','+ score  );
 
 var gold = prompt('Is my favorite color Gold? Yes or No').toUpperCase();
 if (gold ==='YES'||gold ==='Y') {
     alert('Correct!');
+     score += 1;
+
 } else if (gold ==='NO'|| gold ==='N') {
       alert('Sorry you got it wrong!');
+
     }
       else {
-           alert('Wrong Input!');
-};
-console.log('the user \'s answer is ' + gold);
+           alert('Wrong Input!');}
 
-var sing = prompt('Can I sing? Yes or No').toUpperCase();
+          alert('you have '+score+ '/ 7' )
+console.log('the user \'s answer is ' + gold+ ','+ score  );
+
+/*var sing = prompt('Can I sing? Yes or No').toUpperCase();
 if (sing ==='NO'|| sing === 'N') {
     alert('Correct!');
 } else if (sing ==='Yes' || sing === 'Y') {
@@ -69,7 +79,7 @@ while (counter < 4){
   }
 counter++;
 }
-
+console.log('the user \'s answer is ' + input);
 
 var counter = 0;
 while (counter < 6){
@@ -91,3 +101,5 @@ while (counter < 6){
     alert('You are wrong');
     counter++;
   }}
+
+console.log('the user \'s answer is ' + input);*/
